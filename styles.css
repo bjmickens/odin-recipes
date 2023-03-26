@@ -1,0 +1,21 @@
+h1 {
+  font-family: Papyrus, "Lucida Handwriting", sans-serif;
+}
+
+.menu-pic {
+  height: 200px;
+  width: auto;
+  border-radius: 10%;
+  border: 3px solid black;
+}
+
+.menu-pic:hover {
+  height: 210px;
+  width: auto;
+}
+
+.food-pic {
+  height: 200px;
+  width: auto;
+  border-radius: 10%;
+}
