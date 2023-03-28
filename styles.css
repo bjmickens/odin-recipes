@@ -7,15 +7,24 @@ h1 {
   width: auto;
   border-radius: 10%;
   border: 3px solid black;
+  margin: 10px;
+  transition: 100ms;
+
 }
 
 .menu-pic:hover {
   height: 210px;
   width: auto;
+  border: 3px solid blue;
 }
 
 .food-pic {
   height: 200px;
   width: auto;
   border-radius: 10%;
+}
+
+p {
+  margin: 15px;
+  display: block;
 }
