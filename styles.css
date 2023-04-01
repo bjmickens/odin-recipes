@@ -2,10 +2,21 @@
 
   box-sizing: border-box;
 }
+body {
+  /* text-align: center; */
+}
+html, body {
+  /* height: 100%;  */
+
+}
 
 h1, .menu-name {
   font-family: Papyrus, "Lucida Handwriting", sans-serif;
 
+}
+
+.menu-name {
+  text-align: center;
 }
 
 .menu-pic {
@@ -14,7 +25,8 @@ h1, .menu-name {
   border-radius: 10%;
   border: 3px solid black;
   margin: 10px;
-  transition: 100ms;
+  transition: 300ms;
+ display: flex;
 
 }
 
@@ -22,6 +34,8 @@ h1, .menu-name {
   height: 210px;
   width: auto;
   border: 3px solid blue;
+   
+  
 }
 
 .food-pic {
@@ -30,18 +44,16 @@ h1, .menu-name {
   border-radius: 10%;
 }
 
-p {
-  /* margin-left: 50px;
-  margin-right: 100px; */
-  /* flex: 1; */
- 
-} 
-
-.pic-container, .title-container {
+.pic-container {
+  height: 200px; 
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  border: solid 5px black; 
+  height: 50%; 
   flex-wrap: wrap;
 }
+
 
 
 
